@@ -1,0 +1,103 @@
+:root {
+--Red: hsl(0, 78%, 62%);
+--Cyan: hsl(180, 62%, 55%);
+--Orange: hsl(34, 97%, 64%);
+--Blue: hsl(212, 86%, 64%);
+
+--VeryDarkBlue: hsl(234, 12%, 34%);
+--GrayishBlue: hsl(229, 6%, 66%);
+--VeryLightGray: hsla(0, 0%, 98%, 0.699);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+ul {
+    list-style-type: none;
+}
+.container{
+    background-color: var(--VeryLightGray);
+    
+}
+body, html {
+    font-family: 'Poppins', 'Trebuchet MS';
+    font-size: 15px;
+    background-color: var(--VeryLightGray);
+    max-height: 100%;
+}
+.textbox {
+    text-align: center;
+    margin:3ch;
+    margin-top: 5ch;
+}
+.title {
+    color: var(--VeryDarkBlue);
+    font-size: 20px;
+    line-height: 2.5ch;
+    letter-spacing: .2ch;
+
+}
+.title-bold {
+    font-weight: 800;
+}
+.textbox-sub-title {
+    margin-top: 2ch;
+    font-size: 16px;
+    letter-spacing: .1ch;
+    color: var(--GrayishBlue);
+}
+.plan-container {
+    margin:3ch;
+}
+.plan-box {
+    padding: 8ch;
+    background-color:#fff;
+    border-radius: 10px;
+    margin-bottom:2ch;
+    box-shadow: 0 4px 8px -2px hsla(234, 12%, 34%, 0.445); 
+    max-width: 50ch;
+}
+.plan-header {
+    position: relative;
+    left: -4ch;
+    top: -4ch;
+    text-align: left;
+}
+.plan-title {
+    font-size: 20px; 
+    font-weight: 400;
+    color: var(--VeryDarkBlue);
+    margin-bottom: .5ch;
+    box-shadow: none;
+    font-family: 'Poppins', fantasy;
+    letter-spacing: 1px;
+}
+.plan-sub-title {
+    font-size: 15px;
+    color: var(--GrayishBlue);
+    letter-spacing: 1.5px;
+    max-width: 50ch;
+
+}
+.plan-bottom {
+    position: relative;
+    text-align: right;
+    right: -4ch;
+    top: 5ch;
+}
+#box1 {
+    border-top: solid var(--Cyan);
+}
+#box2 {
+    border-top: solid var(--Red);
+}
+#box3 {
+    border-top: solid var(--Orange);
+}
+#box4 {
+    border-top: solid var(--Blue);
+}

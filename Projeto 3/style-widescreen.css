@@ -1,0 +1,61 @@
+
+.textbox {
+    position: relative;
+    text-align: center;
+    margin: 5ch;
+}
+.title {
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-weight: 200;
+}
+.sub-title {
+    max-width: 60ch;
+    position: relative;
+    left: 52ch;
+    text-align:start
+}
+.plan-box {
+    position: relative;
+    align-content: center;
+    margin: 5ch;
+    max-height: 32ch;
+}
+.plan-sub-title {
+    max-height: 34px;
+}
+#box1 {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+#box2 {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 63ch;
+    text-align: center;
+}
+#box3 {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 110ch;
+    top: 42ch;
+    text-align: center;
+}
+#box4 {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 110ch;
+    right: 0;
+    top: 42ch;
+    text-align: center;
+}
